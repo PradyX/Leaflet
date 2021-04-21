@@ -1,4 +1,4 @@
-package com.prady.leaflet;
+package com.prady.leaflet.ui;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -7,10 +7,12 @@ import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
 
-public class NewsDetailsFragment extends Fragment {
+import com.prady.leaflet.R;
+
+public class NewsFavFragment extends Fragment {
 
 
-    public NewsDetailsFragment() {
+    public NewsFavFragment() {
         // Required empty public constructor
     }
 
@@ -25,6 +27,6 @@ public class NewsDetailsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_news_details, container, false);
+        return inflater.inflate(R.layout.fragment_news_fav, container, false);
     }
 }
